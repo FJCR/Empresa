@@ -4,23 +4,17 @@
         <title>M&Oacute;N VIRTUAL</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="estilo.css" type="text/css" rel="stylesheet">
-        <link rel="shortcut icon" href="http://www.translatingcuba.com/images/rosa/1371387830_informatica.jpg"/>
+        <link rel="shortcut icon" href="http://1.bp.blogspot.com/-Mf8hFXlGuTM/T4LfH_22EtI/AAAAAAAAABA/AnqiyDjHjEY/s1600/informatica1.jpg"/>
     </head>
     <body>
         <div id="contenedor">
             <div id="header"><h1>M&Oacute;N VIRTUAL</h1></div>
             <div id="menu">
-                <ul>
-                    <li><a href="index.html">INICI</a></li>
-                    <li><a href="galeria.html">GALERIA</a></li>
-                    <li><a href="contacto.html">CONTACTE</a></li>
-                    <li><a href="presupuestos.html">PRESSUPOSTOS</a></li>
-                    <li><a href="comunidad.html">COMUNITAT</a></li>
-                </ul>
+                <?php include 'menu.php'; ?>
             </div>
             
             <div id="cos">
-<!-- Primera part codi html estandar -->                
+<!-- Primera part codi html estandar -->
                 <div id="formulario">
                 <form method="get" action="google.es">
                     <label id="f1">NOM</label>
@@ -31,15 +25,15 @@
                     <br>
                     COMENTARI<textarea name="f3"></textarea>
                     <br>
-                    AFICIONS <input type="checkbox" name="f4"> TV <input type="checkbox" name="f4"> M&Uacute;SICA <input type="checkbox" name="f4"> <label>VIDEOJOCS</label><br>
+                    AFICIONS <input type="checkbox" name="f4"> tv <input type="checkbox" name="f4"> musica <input type="checkbox" name="f4"> <label>aficions</label><br>
                     <br>
-                    SEXE <input type="radio" name="f5"> DONA <input type="radio" name="f5"> <label>HOME</label><br>
+                    SEXE <input type="radio" name="f5"> dona <input type="radio" name="f5"> <label>home</label><br>
                     <br>
                     CONTRASENYA <input type="password" name="f6">
                     <br>
                     CARREGAR ARXIU <input type="file" name="f7">
                     <br>
-                    <label>QUE SISTEMA UTILITZA HABITUALMENT</label>
+                    <label>QUE SISTEMA USA HABITUALMENTE</label>
                     <select name="c7">
                         <option value="val1">MAC</option>
                         <option value="val2">WINDOWS</option>
@@ -53,15 +47,32 @@
                     <br>
                 </form>
                 </div>
-            </div>
-<!-- Segona part codi html estandar -->            
+                <div id="divtabla">
+                    <table>
+                        <tr>
+                            <th>nom</th>
+                            <th>cognoms</th>
+                            <th>correu</th>
+                        </tr>
+                        <tr>
+                            <td>joan</td>
+                            <td>galmes</td>
+                            <!-- INSEREIX FILA DE DADES -->
+                            <td><a href="mailto:joangalmes@esliceu.com">joangalmes@esliceu.com</a></td>
+                            <!-- INSEREIX FILA AMB HIPERENLLAÇ -->
+                        </tr>
+                        <tr>
+                            <td>pep</td>
+                            <td>buades</td>
+                            <td><a href="mailto:pepbuades@esliceu.com">pepbuades@esliceu.com</a></td>
+                        </tr>
+                    </table>
+                </div>
+<!-- Segona part codi html estandar -->
             <div id="footer">
-                
                 <p>m&oacute;n virtual telf 123 43 32 21<a href="mailto:mon@virtual.com">M&Oacute;N VIRTUAL@.ES</a></p> 
             </div>
-        
+            </div>
         </div>
-    
     </body>
-
 </html>

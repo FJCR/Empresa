@@ -10,27 +10,19 @@
         <div id="contenedor">
             <div id="header"><h1>M&Oacute;N VIRTUAL</h1></div>
             <div id="menu">
-                <ul>
-                    <li><a href="index.html">INICI</a></li>
-                    <li><a href="galeria.html">GALERIA</a></li>
-                    <li><a href="contacto.html">CONTACTO</a></li>
-                    <li><a href="productos.html">PRODUCTES</a></li>
-                    <li><a href="presupuestos.html">PRESSUPOSTOS</a></li>
-                    <li><a href="comunidad.html">COMUNITAT</a></li>
-
-                </ul>
+                <?php include 'menu.php'; ?>
             </div>
             
             <div id="cos">
 <!-- Primera part codi html estandar -->
                 <div id="imagencabecera">
-                    <a href="productos.html"><img id= "fotocabecera" src="imagenes/cabecera.jpg" alt="imagencabecera"></a>    
+                    <a href="productos.php"><img id= "fotocabecera" src="imagenes/cabecera.jpg" alt="imagencabecera"></a>    
                 </div>
                 
                 <p>Mantenimiento, reparación, asesoria informática, intalación de redes, páginas web, ordenadores a la carta, portátiles, hardware, software, imagen, sonido, proyectores, tablets, monitores, procesadores, tóners, consumibles, etc.</p>
                 
                 <div id="imagenpie">
-                    <a href="presupuestos.html"><img id="fotopiepie" src="imagenes/pie.png" alt="pie"></a>
+                    <a href="presupuestos.php"><img id="fotopiepie" src="imagenes/pie.png" alt="pie"></a>
                 </div>
             </div>
  <!-- Segona part codi html estandar -->

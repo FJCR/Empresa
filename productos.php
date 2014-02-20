@@ -4,23 +4,17 @@
         <title>M&Oacute;N VIRTUAL</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="estilo.css" type="text/css" rel="stylesheet">
-        <link rel="shortcut icon" href="http://us.123rf.com/400wm/400/400/kentoh/kentoh0902/kentoh090200006/4231082-una-tecnologia-de-datos-multimedia-como-arte-antecedentes.jpg"/>
+        <link rel="shortcut icon" href="http://www.translatingcuba.com/images/rosa/1371387830_informatica.jpg"/>
     </head>
     <body>
         <div id="contenedor">
             <div id="header"><h1>M&Oacute;N VIRTUAL</h1></div>
             <div id="menu">
-                <ul>
-                    <li><a href="index.html">INICI</a></li>
-                    <li><a href="galeria.html">GALERIA</a></li>
-                    <li><a href="contacto.html">CONTACTO</a></li>
-                    <li><a href="presupuestos.html">PRESSUPOSTOS</a></li>
-                    <li><a href="comunidad.html">COMUNITAT</a></li>
-                </ul>
+                <?php include 'menu.php'; ?>
             </div>
             
             <div id="cos">
- <!-- Primera part codi html estandar -->               	
+<!-- Primera part codi html estandar -->                
                 <div id="imagengrande">
                     <img id="imagen1" src="imagenes/imagen1.jpg" alt="imagen 1">
                 </div>
@@ -36,7 +30,7 @@
                     <img id="imagen9" src="imagenes/imagen9.jpg" alt="imagen 9">
                 </div>  
             </div>
-<!-- Segona part codi html estandar -->            
+ <!-- Segona part codi html estandar -->           
             <div id="footer">
                 
                 <p>m&oacute;n virtual telf 123 43 32 21<a href="mailto:mon@virtual.com">M&Oacute;N VIRTUAL@.ES</a></p> 
