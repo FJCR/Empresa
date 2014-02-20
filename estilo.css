@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image:url(imagenes/fondo.jpg);
+	background-size:auto;
+	font-family:"Times New Roman";
+	font-size:14px;
+}
+
+#contenedor {
+	width: 1100px;
+	margin: 0 auto 0 auto;
+	background-color:#000000;
+}
+
+
+
+p {
+	margin: 20px 20px 0 20px;
+        font-size:29px;       
+}
+
+#divimagencabecera {
+	text-align:center;
+}
+
+#divimagenpie {
+	text-align:center;
+}
+
+#cos {
+	color:#FF0004;
+	text-align:center;
+}
+
+#header {
+	color:#FF0004;
+	text-align:center;
+	font-size:18px;
+}
+
+#footer {
+	color:#FF0004;
+	text-align:center;
+}
+
+#menu {
+	color:#FF0004;
+	height:30px;
+        font-size:18px;
+}
+
+#menu ul li {
+	float:left;
+	list-style:none;
+	margin:5px 0 0 15px;
+}
+
+a {
+	color:#FF0004;
+	text-decoration:none;
+        
+}
+
+a:hover {
+	text-decoration:underline;
+	font-weight:bold;
+}
+#imagen1 {
+	margin: 20px 20px 20px 20px;
+        height: 400px;
+	width: 400px;
+}
+
+#imagen2 {
+	margin: 20px 0 20px 20px;
+        height: 10px;
+	width: 100px;
+}
+#imagen3 {
+	margin: 20px 0 20px 20px;
+        height: 100px;
+	width: 100px;
+}
+#imagen4 {
+	margin: 20px 0 20px 20px;
+        height: 100px;
+	width: 100px;
+}
+#imagen5 {
+	margin: 20px 0 20px 20px;
+        height: 100px;
+	width: 100px;
+}
+#imagen6 {
+	margin: 20px 0 20px 20px;
+        height: 100px;
+        width: 100px;
+}
+#imagen7 {
+	margin: 20px 0 20px 20px;
+        height: 100px;
+        width: 100px;
+}
+#imagen8 {
+	margin: 20px 0 20px 20px;
+        height: 100px;
+	width: 100px;
+}
+#imagen9 {
+	margin: 20px 0 20px 20px;
+        height: 100px;
+	width: 100px;
+}
+h1 {
+    overflow: auto;
+    overflow-style: marquee-line;
+    white-space: nowrap
+}
+
