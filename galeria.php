@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>M&Oacute;N VIRTUAL</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="estilo.css" type="text/css" rel="stylesheet">
+        <?php include 'header.php'; ?>
         <link rel="shortcut icon" href="http://us.123rf.com/400wm/400/400/kentoh/kentoh0902/kentoh090200006/4231082-una-tecnologia-de-datos-multimedia-como-arte-antecedentes.jpg"/>
     </head>
     <body>

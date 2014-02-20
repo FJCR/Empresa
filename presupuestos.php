@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>M&Oacute;N VIRTUAL</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="estilo.css" type="text/css" rel="stylesheet">
+        <?php include 'header.php'; ?>
         <link rel="shortcut icon" href="http://www.translatingcuba.com/images/rosa/1371387830_informatica.jpg"/>
     </head>
     <body>

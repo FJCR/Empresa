@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>M&Oacute;N VIRTUAL</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="estilo.css" type="text/css" rel="stylesheet">
+        <?php include 'header.php'; ?>
         <link rel="shortcut icon" href="http://1.bp.blogspot.com/-Mf8hFXlGuTM/T4LfH_22EtI/AAAAAAAAABA/AnqiyDjHjEY/s1600/informatica1.jpg"/>
     </head>
     <body>
