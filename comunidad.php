@@ -32,8 +32,8 @@
             </div>
 <!-- Segona part codi html estandar -->            
             <div id="footer">
+                <?php include 'footer.php'; ?>
                 
-                <p>m&oacute;n virtual telf 123 43 32 21<a href="mailto:mon@virtual.com">M&Oacute;N VIRTUAL@.ES</a></p> 
             </div>
         
         </div>
