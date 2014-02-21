@@ -1,0 +1,5 @@
+AuthUserFile c:\xampp\htdocs\empresa\.htpasswd
+AuthName Empresa
+AuthType Basic
+
+require valid-user
