@@ -2,6 +2,10 @@
 <html>
     <head>
         <?php include 'header.php'; ?>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+		
+		<link rel="stylesheet" href="css/flexslider.css">
+		
         <link rel="shortcut icon" href="http://us.123rf.com/400wm/400/400/kentoh/kentoh0902/kentoh090200006/4231082-una-tecnologia-de-datos-multimedia-como-arte-antecedentes.jpg"/>
     </head>
     <body>
@@ -13,20 +17,33 @@
             
             <div id="cos">
  <!-- Primera part codi html estandar -->               	
-                <div id="imagengrande">
-                    <img id="imagen1" src="imagenes/imagen1.jpg" alt="imagen 1">
-                </div>
-                
-                <div id="imagenesmini">
-                    <img id="imagen2" src="imagenes/imagen2.jpg" alt="imagen 2 ">
-                    <img id="imagen3" src="imagenes/imagen3.png" alt="imagen 3">
-                    <img id="imagen4" src="imagenes/imagen4.jpg" alt="imagen 4">
-                    <img id="imagen5" src="imagenes/imagen5.jpg" alt="imagen 5">
-                    <img id="imagen6" src="imagenes/imagen6.jpg" alt="imagen 6">
-                    <img id="imagen7" src="imagenes/imagen7.jpg" alt="imagen 7">
-                    <img id="imagen8" src="imagenes/imagen8.jpg" alt="imagen 8">
-                    <img id="imagen9" src="imagenes/imagen9.jpg" alt="imagen 9">
-                </div>  
+                <div id="slider">
+                    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+                    <script type="text/javascript" charset="utf-8">
+                        $(window).load(function() {
+                          $('.flexslider').flexslider({
+                            controlsContainer: '.flex-container'
+                            });
+                        });
+                    </script>
+                    <div class="flex-container">
+                        <div class="flexslider">
+                            <ul class="slides">
+				<li><img id="imagen1" src="imagenes/imagen1.jpg" alt="imagen 1"></li>
+				<li><img id="imagen2" src="imagenes/imagen2.jpg" alt="imagen 2"></li>
+				<li><img id="imagen3" src="imagenes/imagen3.png" alt="imagen 3"></li>
+				<li><img id="imagen4" src="imagenes/imagen4.jpg" alt="imagen 4"></li>
+				<li><img id="imagen5" src="imagenes/imagen5.jpg" alt="imagen 5"></li>
+				<li><img src="imagenes/imagen6.jpg" alt="imagen 6"></li>
+				<li><img src="imagenes/imagen7.jpg" alt="imagen 7"></li>
+				<li><img src="imagenes/imagen8.jpg" alt="imagen 8"></li>
+				<li><img src="imagenes/imagen9.jpg" alt="imagen 9"></li>
+                            </ul>
+					
+                        </div>
+                    </div> 
+                </div> 
+                    <br>
             </div>
 <!-- Segona part codi html estandar -->            
             <div id="footer">

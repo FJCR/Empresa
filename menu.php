@@ -4,6 +4,6 @@
     <li><a href="contacto.php">CONTACTO</a></li>
     <li><a href="productos.php">PRODUCTES</a></li>
     <li><a href="presupuestos.php">PRESSUPOSTOS</a></li>
-	<li><a href="comunidad.php">COMUNITAT</a></li>
+    <li><a href="comunidad.php">COMUNITAT</a></li>
 
 </ul>

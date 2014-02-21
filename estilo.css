@@ -33,7 +33,7 @@ p {
 
 #cos {
 	color:#FF0004;
-	text-align:center;
+	text-align:center !important;
 }
 
 #header {
@@ -60,7 +60,7 @@ p {
 }
 
 a {
-	color:#FF0004;
+	color:#FF0004 !important;
 	text-decoration:none;
         
 }
@@ -68,56 +68,20 @@ a {
 a:hover {
 	text-decoration:underline;
 	font-weight:bold;
-}
-#imagen1 {
-	margin: 20px 20px 20px 20px;
-        height: 400px;
-	width: 400px;
+	color:#FF0004;
 }
 
-#imagen2 {
-	margin: 20px 0 20px 20px;
-        height: 10px;
-	width: 100px;
-}
-#imagen3 {
-	margin: 20px 0 20px 20px;
-        height: 100px;
-	width: 100px;
-}
-#imagen4 {
-	margin: 20px 0 20px 20px;
-        height: 100px;
-	width: 100px;
-}
-#imagen5 {
-	margin: 20px 0 20px 20px;
-        height: 100px;
-	width: 100px;
-}
-#imagen6 {
-	margin: 20px 0 20px 20px;
-        height: 100px;
-        width: 100px;
-}
-#imagen7 {
-	margin: 20px 0 20px 20px;
-        height: 100px;
-        width: 100px;
-}
-#imagen8 {
-	margin: 20px 0 20px 20px;
-        height: 100px;
-	width: 100px;
-}
-#imagen9 {
-	margin: 20px 0 20px 20px;
-        height: 100px;
-	width: 100px;
-}
 h1 {
     overflow: auto;
     overflow-style: marquee-line;
     white-space: nowrap
 }
 
+#slider img {
+	height:500px;
+	margin: 0 auto;
+}
+
+.flex-container {
+	left: -4px;
+}
